@@ -1,0 +1,369 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+
+.top{
+    background: #FE4D29;
+    line-height: 40px;
+}
+.container{
+    margin: auto;
+    width: 1240px;
+}
+.top li{
+    display: inline;
+    padding: 0px,10px;
+}
+nav li{
+    display: inline;
+    padding: 10px;
+    font-weight: 500;
+}
+nav li a{
+    color: black;
+}
+nav ul{
+    padding: 32px;
+}
+.button{
+   background: #FE4D29;
+   color: white;
+   padding: 10px;   
+}
+nav a:hover, .active{
+    color:#FE4D29;
+}
+.banner img{
+    width: 100%;
+}
+.i-left{
+    width: 47%;
+}
+.i-right{
+    width: 47%;
+}
+.intro{
+    padding: 50px;
+    text-align: justify;
+}
+.intro h3{
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+p{
+    line-height: 27px;
+    color: #644a4a;
+}
+.founder{
+background: url(../Img/bg_banner1.jpg);
+height: 200px;
+padding: 50px 0;
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.founder-inner{
+position: absolute;
+width: 100%;
+height: 100%;
+background: #fe4c29a2;
+top: 0;
+left: 0;
+}
+.w-100{
+    width: 100%;
+}
+.gallery{
+    text-align: center;
+}
+.event{
+    text-align: center;
+    padding: 20px 0;
+}
+footer{
+    background: url(../Img/bg_banner1.jpg);
+   
+    background-size: cover;
+    background-position: center;
+    position: relative;  
+    margin: 60px;
+}
+.footer.inner{
+    position: absolute;
+    padding: 150px 0;
+    width: 100%;
+    height: 100%;
+    background: #0b21309d;
+    top: 0;
+    left: 0;   
+}
+footer h2
+{
+    color: white;
+    text-align: center;
+}
+footer h2 span
+{
+    color: #FE4D29;
+}
+header{
+    color: white;
+    position: sticky;
+    top: 0;
+}
+footer li{
+    display: inline;  
+}
+.col{
+    color: white;
+}
+.top right{
+    padding: 10px 10px;
+}
+
+
+
+/* 
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+.top
+{
+
+	line-height: 40px;
+	background-color: #FE4C28;
+}
+.container
+{
+	margin:auto;
+	width: 1140px;
+}
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+.clear
+{
+	clear: both;
+}
+
+.top ul
+{
+	list-style: none;
+}
+
+.top li
+{
+	text-decoration: none;
+}
+
+.top li
+{
+	display: inline;
+	padding: 0px 10px;
+	color: white;
+	
+}
+
+
+nav
+{
+	line-height:70px;
+	
+}
+
+nav ul
+{
+	list-style: none;
+
+}
+
+nav img
+{
+	margin-top: 15px;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: black;
+
+}
+
+nav li
+{
+	display: inline;
+	padding:10px ;
+
+}
+
+.container .btn
+{
+	background-color:#FE4C28 ;
+	border-radius: 8px;
+
+}
+
+.container .btn a
+{
+	color: white;
+}
+
+.banner img
+{
+	width: 100%;
+}
+
+.article
+{
+	
+	width: 100%;
+
+}
+
+.a
+{
+	width: 47%;
+}
+
+.b
+{
+	width: 47%;
+}
+
+.intr
+{
+	padding: 50px;
+}
+
+.intro h3
+{
+	font-size: 28px;
+	font-weight: 700;
+	padding: 20px 0px;
+}
+
+p
+{
+	padding-top: 20px;
+	line-height: 27px;
+	color: gray;
+	text-align: justify;
+}
+
+.orangebox
+{
+	background: url(../Img/bg_banner1.jpg);
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.inner{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color:#00000094 ;
+	top: 0;
+	left: 0;
+}
+
+.man
+
+{
+	margin-top:30px;
+}
+
+.imgcontrol
+{
+	width: 100%;
+	
+}
+
+.man h1 , h2{
+	text-align: center;
+}
+
+.event h2{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.event h1
+{
+	padding-top: 30px;
+}
+
+footer
+{
+	background: url(../Img/bg_banner1.jpg);
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	margin-top: 50px;
+}
+
+footer .inner
+
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color:#2f046194 ;
+	top: 0;
+	left: 0;
+}
+
+footer h2
+{
+	color: white;
+	text-align: center;
+}
+
+footer h2 span
+{
+	color: #FE4C28 ;
+	text-align: center;
+}
+
+
+nav
+{
+	background-color: white;
+	position: sticky;
+	top: 0;
+}
+
+nav a:hover , .active a
+{
+	color:#FE4C28 ;
+} */
